@@ -22661,12 +22661,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\Demo1.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\Demo1.UWP.csproj",
       "projectName": "Demo1.UWP",
-      "projectPath": "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\Demo1.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\project.json",
+      "projectPath": "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\Demo1.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\project.json",
       "packagesPath": "C:\\Users\\UdaraAlwis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\obj\\",
+      "outputPath": "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\UdaraAlwis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22674,13 +22674,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\WORK\\xamariners\\Commercial\\MyAnkaa\\ref": {},
+        "https://nuget.org/api/v2/": {}
       },
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1\\Demo1.csproj": {
-              "projectPath": "C:\\Users\\UdaraAlwis\\Desktop\\Monkeyfest-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1\\Demo1.csproj"
+            "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1\\Demo1.csproj": {
+              "projectPath": "C:\\Users\\UdaraAlwis\\Desktop\\MonkeyFest2017-Udara\\Demo\\Demo1-2D Basics\\Demo1\\Demo1\\Demo1.csproj"
             }
           }
         }

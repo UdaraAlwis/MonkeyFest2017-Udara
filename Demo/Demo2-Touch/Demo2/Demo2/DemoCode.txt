@@ -1,0 +1,22 @@
+﻿
+//using (SKPaint paintTouchPoint = new SKPaint())
+//{
+//    paintTouchPoint.Style = SKPaintStyle.Fill;
+//    paintTouchPoint.Color = SKColors.Red;
+//    paintTouchPoint.IsDither = true;
+//    skCanvas.DrawCircle(
+//        _lastTouchPoint.X,
+//        _lastTouchPoint.Y,
+//        50, paintTouchPoint); // 45
+//}
+
+
+//if (e.ActionType == SkiaSharp.Views.Forms.SKTouchAction.Pressed)
+//{
+//    _lastTouchPoint = e.Location;
+//    e.Handled = true;
+//}
+
+//_lastTouchPoint = e.Location;
+
+//SkCanvasView.InvalidateSurface();
