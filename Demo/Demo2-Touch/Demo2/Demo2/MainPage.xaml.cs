@@ -20,7 +20,15 @@ namespace Demo2
 
         private void SkCanvasView_Touch(object sender, SkiaSharp.Views.Forms.SKTouchEventArgs e)
         {
+            if (e.ActionType == SkiaSharp.Views.Forms.SKTouchAction.Pressed)
+            {
+                _lastTouchPoint = e.Location;
+                e.Handled = true;
+            }
 
+            _lastTouchPoint = e.Location;
+
+            SkCanvasView.InvalidateSurface();
         }
 
         private SKPoint _lastTouchPoint = new SKPoint();
@@ -33,6 +41,18 @@ namespace Demo2
 
             skCanvas.Clear();
 
+
+            using (SKPaint paintTouchPoint = new SKPaint())
+            {
+                paintTouchPoint.Style = SKPaintStyle.Fill;
+                paintTouchPoint.Color = SKColors.Red;
+                paintTouchPoint.IsDither = true;
+
+                skCanvas.DrawCircle(
+                    _lastTouchPoint.X,
+                    _lastTouchPoint.Y,
+                    50, paintTouchPoint); // 45
+            }
 
         }
     }

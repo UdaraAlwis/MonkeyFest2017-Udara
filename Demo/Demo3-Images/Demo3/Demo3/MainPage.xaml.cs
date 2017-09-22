@@ -34,8 +34,27 @@ namespace Demo3
             skCanvas.Translate((float)skCanvasWidth / 2, (float)skCanvasheight / 2);
             // set the pixel scale of the canvas
             skCanvas.Scale(skCanvasWidth / 200f);
-            
 
-        }
+            string resourceID = "Demo3.Resources.xamarinmonkey.png";
+            Assembly assembly = GetType().GetTypeInfo().Assembly;
+
+            SKBitmap skBitmap;
+            using (Stream stream
+                = assembly.GetManifestResourceStream(resourceID))
+            using (SKManagedStream skStream = new SKManagedStream(stream))
+            {
+                skBitmap = SKBitmap.Decode(skStream);
+            }
+
+
+            // Blur Image Filter
+            var filter = SKImageFilter.CreateBlur(5, 5);
+            var skPaint = new SKPaint();
+            skPaint.ImageFilter = filter;
+
+            skCanvas.DrawBitmap(skBitmap,
+                SKRect.Create(-50, -50, 100, 100), skPaint);
+        
+    }
     }
 }
